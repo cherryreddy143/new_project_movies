@@ -6,7 +6,7 @@ body {
   nav ul li {
     list-style-type: none;
     float: left;
-    padding-right: 2.5em; /* (px,em,%),pt,cm */
+    padding-right: 2.5em ; /* (px,em,%),pt,cm */
     color: #eff3c6;
   }
   nav ul {
@@ -65,6 +65,8 @@ background-color: rgb(209, 255, 82);
   text-align: center;
   font-size: 30px;
   background-color: rgb(110, 67, 228);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .about {
   font-size: 30px;
@@ -118,4 +120,15 @@ div ul li{
 }
 div {
   display: block;
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+
+
+
+
+
 }
