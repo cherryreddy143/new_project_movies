@@ -66,3 +66,56 @@ background-color: rgb(209, 255, 82);
   font-size: 30px;
   background-color: rgb(110, 67, 228);
 }
+.about {
+  font-size: 30px;
+  padding: 0.1cm;
+}
+element.style {
+  padding-bottom: 5px;
+}
+user agent stylesheet
+div {
+  display: block;
+  list-style-type: none;
+}
+div h2{
+  text-align: center;
+  font-size: 5vh;
+  }
+body, input, textarea {
+  font-family: Trebuchet, arial, sans-serif;
+}
+body {
+  background: #8ba4ee url(images/diagonal-stripes-010.png);
+  color: #000000;
+  font-size: 14px;
+  margin: 0;
+  padding: 15px 0 0px;
+}
+:root {
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color-darker-10: #006ba1;
+  --wp-admin-theme-color-darker-20: #005a87;
+}
+div ul li{
+  list-style-type: none;
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 2.5em;
+  padding-left: 1em;
+  padding-top: 2.5em;
+  background-color: rgb(255, 255, 255);
+}
+.slim-video-metadata-actions {
+  padding: 0 12px 12px 12px;
+  color: hsla(0,0%,6.7%, .6 );
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+div {
+  display: block;
+}
