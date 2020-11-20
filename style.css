@@ -53,3 +53,11 @@ body {
 .search {
   padding: 2rem;
 }
+.footer {
+background-color: rgb(209, 255, 82);
+}
+.footer h1 {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(110, 67, 228);
+}
