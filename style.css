@@ -13,7 +13,7 @@ body {
     float: right;
   }
   nav ul li a:hover {
-    font-size: 35px;
+    font-size: 25px;
     background-color: mediumturquoise;
   }
   nav {
@@ -88,7 +88,7 @@ body, input, textarea {
   font-family: Trebuchet, arial, sans-serif;
 }
 body {
-  background: #8ba4ee url(images/diagonal-stripes-010.png);
+  background: #8ba4ee ;
   color: #000000;
   font-size: 14px;
   margin: 0;
@@ -99,13 +99,123 @@ body {
   --wp-admin-theme-color-darker-10: #006ba1;
   --wp-admin-theme-color-darker-20: #005a87;
 }
+div ul {
+  float: right;
+}
+.content home_style {
+  width: 100%;
+  height: 50px;
+  background-color: #0779e4;
+}
 div ul li{
+  padding-right: 2.5em ; /* (px,em,%),pt,cm */
+  color: #eff3c6;
   list-style-type: none;
   float: left;
   padding-right: 1em;
   padding-bottom: 2.5em;
   padding-left: 1em;
   padding-top: 2.5em;
+  background-color: rgb(255, 255, 255);
+}
+.slim-video-metadata-actions {
+  padding: 12px 12px 12px 12px;
+  color: hsla(0,0%,6.7%, .6 );
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 800px) {
+  nav ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 1.5em ; /* (px,em,%),pt,cm */
+    color: #eff3c6;
+  }
+  nav ul {
+    float: right;
+  }
+  nav ul li a:hover {
+    font-size: 15px;
+    background-color: mediumturquoise;
+  }
+  nav {
+    width: 100%;
+    height: 50px;
+    padding-bottom: 2.5em;
+    background-color: #0779e4;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+.heading .navbar {
+  text-align: center;
+  font-size: 25px;
+}
+.heading{
+    width: 100%;
+    height: 50px;  
+    padding-bottom: em;  
+}
+.inner {
+  float: left;
+}
+.inner .home,.inner1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.inner input,.inner button {
+  font-size: 20px;
+}
+.welcome h1 {
+  width: 100%;
+  height: 50px;
+  padding-top: 1.5rem;
+}
+.footer {
+background-color: rgb(209, 255, 82);
+}
+.footer h1 {
+  padding: 8em;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(110, 67, 228);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.about {
+  font-size: 20px;
+  padding: 0.1cm;
+}
+element.style {
+  padding-bottom: 5px;
+}
+user agent stylesheet
+div {
+  display: block;
+  list-style-type: none;
+}
+div h2{
+  text-align: center;
+  font-size: 5vh;
+  }
+:root {
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color-darker-10: #006ba1;
+  --wp-admin-theme-color-darker-20: #005a87;
+}
+div ul li{
+  list-style-type: none;
+  float: left;
   background-color: rgb(255, 255, 255);
 }
 .slim-video-metadata-actions {
@@ -117,15 +227,9 @@ div ul li{
   -webkit-box-pack: justify;
   -webkit-justify-content: space-around;
   justify-content: space-around;
-}
-div {
-  display: block;
+  grid-column: auto;
 }
 
-
-
-
-@media screen and (max-width: 300px) {
 
 
 
